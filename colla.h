@@ -11,7 +11,7 @@
 #define TD TY##def
 #define TD TY##name
 #define TP(...) template <__VA_ARGS__>
-#define COLLA(T) i main(RG s f) { return collatzm<T>(f); }
+#define COLLA(T) RG i main(RG s f) { return collatzm<T>(f); }
 
 TD int i;
 TD char c;
