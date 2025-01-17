@@ -26,7 +26,7 @@ TP(uint T, T L) union streamt { T ret; c buf[L]; };
 
 TP(uint T, T L = sizeof(T), TN G = streamt<T, L>) IL RG T TFG(RG s f) {
     FILE* fp = fopen(f, r);
-    if (fp == NULL) { return null; }:
+    if (fp == NULL) { return nullptr; };
     
     RG G fv;
     fgets(fv.buf, L, fp);
