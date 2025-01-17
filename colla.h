@@ -8,7 +8,7 @@
 #define RG register
 #define IL inline
 #define TD typedef
-#define TD typename
+#define TN typename
 #define TP(...) template <__VA_ARGS__>
 #define COLLA(T) RG i main(RG s f) { return collatzm<T>(f); }
 
